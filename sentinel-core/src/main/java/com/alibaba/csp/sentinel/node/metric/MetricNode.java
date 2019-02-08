@@ -34,7 +34,7 @@ public class MetricNode {
     private long exceptionQps;
     private long rt;
 
-    private String resource;
+    private String resource = "";
 
     public long getTimestamp() {
         return timestamp;
